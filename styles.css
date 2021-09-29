@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(270deg, rgba(15,219,100,1) 0%, rgba(117,45,253,1) 100%);
+    background-color: cadetblue;
+}
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+kbd {
+    border: 1px black solid;
+    display: inline-block;
+    height: 6em;
+    width: 2em;
+    background-color: white;
+    text-align: center;
+}
