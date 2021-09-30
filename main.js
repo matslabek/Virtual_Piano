@@ -4,7 +4,8 @@ function prepareEventListeners() {
         //Remove the "Key" part
         let key = event.code.slice(3);
         if (keyboardKeys.includes(key)) {
-                console.log("The '" + key + "'key is pressed.");
+            let audio = new Audio("sounds/" + key + ".mp3");
+            audio.play();
             }
         else {
             console.log("Warning! You pressed the wrong key!");
