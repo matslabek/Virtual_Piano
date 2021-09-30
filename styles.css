@@ -2,13 +2,26 @@ body {
     background: linear-gradient(270deg, rgba(15,219,100,1) 0%, rgba(117,45,253,1) 100%);
     background-color: cadetblue;
 }
-.container {
+.white-keys {
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
-kbd {
+.black-keys {
+    position: absolute;
+}
+.black-keys kbd{
+    border: 1px black solid;
+    display: inline-block;
+    height: 4em;
+    width: 1.5em;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.white-keys > kbd {
     border: 1px black solid;
     display: inline-block;
     height: 6em;

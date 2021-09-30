@@ -1,5 +1,5 @@
 function prepareEventListeners() {
-    let keyboardKeys = ['A', 'S', 'D', 'F', 'G', 'H', 'J'];
+    let keyboardKeys = ['A', 'S', 'D', 'F', 'G', 'H', 'J', "W", "E", "T", "Y", "U"];
     document.addEventListener("keydown", function(event) {
         //Remove the "Key" part
         let key = event.code.slice(3);
